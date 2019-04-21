@@ -14,6 +14,11 @@ You will find the accompanying manuscript by Tuesday, as it is submitted to arXi
 + Vinod Kumar Chauhan, Anuj Sharma, and Kalpana Dahiya. LIBS2ML: A Library for Scalable Second Order Machine Learning Algorithms. arXiv, April 2019. URL http:
 
 
+## ARCHITECTURE
+<img src="https://github.com/jmdvinodjmd/JMD/blob/master/design.png" width="900">
+<br /><br />
+
+
 ## PROBLEMS
 Currently, LIBS2ML contains following problems but we will add more problems in the future.
 - Logistic Regression (l2-regularized)
@@ -90,6 +95,14 @@ Now the library is ready to use. You can look at ``Quick Start Example" section.
 Here we provide an example of using LIBS2ML. For this we use MATLAB script ``exp_run.m" which uses ``mushroom.mat" dataset, which is present in ``data" folder, and sets some values to different parameters which can be tuned depending upon the problem and the solver. This compares the selected solvers for their convergence against time and accuracy.
 - First Run `run_this_first.m' MATLAB script, if not done earlier, which will add the folders to the path.
 - `exp_run.m', which is MATLAB driver script for running the experiments.
+
+The experimental results:
+
+<img src="https://github.com/jmdvinodjmd/JMD/blob/master/news20_acc_time.eps" width="900">
+<br /><br />
+
+<img src="https://github.com/jmdvinodjmd/JMD/blob/master/news20_opt_time.eps" width="900">
+<br /><br />
  
 
 ## Extension
@@ -115,7 +128,6 @@ LIBS2ML is designed in a modular fashion and problem, solver, driver script and 
 
 
 ## More Information
-
 LIBS2ML is an open source library and released under the Apache 2.0 open source license.
 
 Please cite LIBS2ML if you find it useful:
@@ -132,9 +144,12 @@ Please cite LIBS2ML if you find it useful:
 You can have a look into the lessons learnt from the development of LIBS2ML from following blog:
 [Lessons Learnt from Developing a C++ Library](https://jmdvinodjmd.blogspot.com/2018/12/lessons-learnt-from-developing-c-library.html)
 
+
 ## Contact us
 This library is a work in progress so any questions and suggestions are welcomed. Please contact:
+
 [Dr. Anuj Sharma](https://sites.google.com/view/anujsharma/) and [Vinod Kumar Chauhan](https://sites.google.com/site/jmdvinodjmd/), and send email to- anujs **AT** pu **dot** ac **dot** in and cc to jmdvinodjmd **AT** gmail **dot** com.
+
 
 ## Release Notes
 - ...
