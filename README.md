@@ -81,7 +81,7 @@ More Information
 
 LIBS2ML is released under the Apache 2.0 open source license.
 
-Please cite LIBS2ML in your publications if you find it useful:
+You will find the accompanying manuscript by Tuesday, as it is submitted to arXiv and will be online by Tuesday. Please cite LIBS2ML in your publications if you find it useful:
 
 ```
 @article{libs2ml2019,
@@ -100,6 +100,4 @@ Contact us
 This library is a work in progress so any questions and suggestions are welcomed. Please send your emails to:
 anujs@pu.ac.in and cc to jmdvinodjmd@gmail.com
 
-Released On: April, 2019
-===================================
-The End
+
