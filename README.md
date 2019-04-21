@@ -25,14 +25,12 @@ Folders and files
 ./                      - Top directory.
 ./README.md             - This is readme file.
 ./run_this_first.m      - The scipt adds folders to path so need to run this first.
-./demo.m                - Demonstration script to check and understand this package easily. 
 |data/                  - Contains the datasets used in the expriments
 |demos/                 - MATLAB driver scripts for running experiments are present here.
 |methods/               - The learning algorithms are defined here.
 |mexfiles/              - It contains MEX files, written in C++, which act as interface between MATLAB/Octave and C++.
 |others/                - Auxiliary helpful code is present in this folder.
 |problems/              - This contains class definitions for each problem.
-|gd_test/               - Some helpful test scripts using gradient descent algorithms to use this package.
 </pre>    
 
 
