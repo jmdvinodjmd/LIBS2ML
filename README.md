@@ -130,11 +130,11 @@ Please cite LIBS2ML if you find it useful:
 }
 ```
 You can have a look into the lessons learnt from the development of LIBS2ML from following blog:
-https://jmdvinodjmd.blogspot.com/2018/12/lessons-learnt-from-developing-c-library.html
+[Lessons Learnt from Developing a C++ Library](https://jmdvinodjmd.blogspot.com/2018/12/lessons-learnt-from-developing-c-library.html)
 
 ## Contact us
 This library is a work in progress so any questions and suggestions are welcomed. Please contact:
-[Dr. Anuj Sharma](https://sites.google.com/view/anujsharma/) and [Vinod Kumar Chauhan](https://sites.google.com/site/jmdvinodjmd/), and send email to anujs **AT** pu **dot** ac **dot** in and cc to jmdvinodjmd **AT** gmail **dot** com.
+[Dr. Anuj Sharma](https://sites.google.com/view/anujsharma/) and [Vinod Kumar Chauhan](https://sites.google.com/site/jmdvinodjmd/), and send email to- anujs **AT** pu **dot** ac **dot** in and cc to jmdvinodjmd **AT** gmail **dot** com.
 
 ## Release Notes
 - ...
