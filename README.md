@@ -25,6 +25,7 @@ Folders and files
 ./                      - Top directory.
 ./README.md             - This is readme file.
 ./run_this_first.m      - The scipt adds folders to path so need to run this first.
+./make.m                - This MATLAB/Octave script is used to compile the source code.
 |data/                  - Contains the datasets used in the expriments
 |demos/                 - MATLAB driver scripts for running experiments are present here.
 |methods/               - The learning algorithms are defined here.
