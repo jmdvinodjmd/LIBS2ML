@@ -1,4 +1,4 @@
-##Work in progress...
+## Work in progress...
 
 
 LIBS2ML: A Library for Scalable Second Order Machine Learning Algorithms
@@ -15,13 +15,13 @@ You will find the accompanying manuscript by Tuesday, as it is submitted to arXi
 + Vinod Kumar Chauhan, Anuj Sharma, and Kalpana Dahiya. LIBS2ML: A Library for Scalable Second Order Machine Learning Algorithms. arXiv, April 2019. URL http:
 
 
-##PROBLEMS
+## PROBLEMS
 Currently, LIBS2ML contains following problems but we will add more problems in the future.
 - Logistic Regression (l2-regularized)
 - Support Vector Machine (l2-regularized and l2-loss)
 
 
-##LEARNING METHODS
+## LEARNING METHODS
 Currently, LIBS2ML Contains following learning algorithms but we will add more methods in the future.
 - TRON (Trust RegiOn Newton) method
     + Chih-Yang Hsia, Wei-Lin Chiang, and Chih-Jen Lin. 2018. Preconditioned Conjugate Gradient Methods in Truncated Newton Frameworks for Large-scale Linear Classification. In Proceedings of the Tenth Asian Conference on Machine Learning (Proceedings of Machine Learning Research). PMLR.
@@ -108,7 +108,7 @@ More Information
 
 LIBS2ML is an open source library and released under the Apache 2.0 open source license.
 
-Please cite LIBS2ML in your publications if you find it useful:
+Please cite LIBS2ML if you find it useful:
 
 ```
 @article{libs2ml2019,
