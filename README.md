@@ -1,22 +1,49 @@
-This is a work in progress...
-===========================================================================
- LIBS2ML: A Library for Scalable Second Order Machine Learning Algorithms
+##Work in progress...
+
+
+LIBS2ML: A Library for Scalable Second Order Machine Learning Algorithms
 ===========================================================================
 
 
 About LIBS2ML
 ====================================================
-LIBS2ML is a library based on scalable second order learning algorithms for solving large-scale problems, i.e., big data problems in machine learning. LIBS2ML has been developed using MEX files, i.e., C++ with MATLAB/Octave interface to take the advantage of both the worlds, i.e., faster learning using C++ and easy I/O using MATLAB. Most of the available libraries are either in MATLAB/Python/R which are very slow and not suitable for large-scale learning, or are in C/C++ which does not have easy ways to take input and display results. So LIBS2ML is completely unique due to its focus on the scalable second order methods, the hot research topic, and being based on MEX files. Thus it provides researchers a comprehensive environment to evaluate their ideas and it also provides machine learning practitioners an effective tool to deal with the large-scale learning problems. LIBS2ML is an open-source, highly efficient, extensible, scalable, readable, portable and easy to use library.
+LIBS2ML is a library based on scalable second order learning algorithms for solving large-scale problems, i.e., big data problems in machine learning. LIBS2ML has been developed using MEX files, i.e., C++ with MATLAB/Octave interface to take the advantage of both the worlds, i.e., faster learning using C++ and easy I/O using MATLAB. Most of the available libraries are either in MATLAB/Python/R which are very slow and not suitable for large-scale learning, or are in C/C++ which does not have easy ways to take input and display results. So LIBS2ML is completely unique due to its focus on the scalable second order methods, the hot research topic, and being based on MEX files. Thus it provides researchers a comprehensive environment to evaluate their ideas and it also provides machine learning practitioners an effective tool to deal with the large-scale learning problems. LIBS2ML is an open-source, highly efficient, extensible, scalable, readable, portable and easy to use library. The library can be downloaded from the URL: \url{https://github.com/jmdvinodjmd/LIBS2ML}.
 
 
-LIBS2ML Contains following problems
-- Logistic Regression
-- SVM
+## MANUSCRIPT
+You will find the accompanying manuscript by Tuesday, as it is submitted to arXiv and will be online by Tuesday.
++ Vinod Kumar Chauhan, Anuj Sharma, and Kalpana Dahiya. LIBS2ML: A Library for Scalable Second Order Machine Learning Algorithms. arXiv, April 2019. URL http:
 
-LIBS2ML Contains following learning algorithms
-- STRON
-- TRON
-- 
+
+##PROBLEMS
+Currently, LIBS2ML contains following problems but we will add more problems in the future.
+- Logistic Regression (l2-regularized)
+- Support Vector Machine (l2-regularized and l2-loss)
+
+
+##LEARNING METHODS
+Currently, LIBS2ML Contains following learning algorithms but we will add more methods in the future.
+- TRON (Trust RegiOn Newton) method
+    + Chih-Yang Hsia, Wei-Lin Chiang, and Chih-Jen Lin. 2018. Preconditioned Conjugate Gradient Methods in Truncated Newton Frameworks for Large-scale Linear Classification. In Proceedings of the Tenth Asian Conference on Machine Learning (Proceedings of Machine Learning Research). PMLR.
+- STRON (Stochastic Trust RegiOn Newton) method
+    + Vinod Kumar Chauhan, Anuj Sharma, and Kalpana Dahiya. Stochastic Trust Region Inexact Newton Method for Large-scale Machine Learning. arXiv, dec 2018c. URL http://arxiv.org/abs/1812.10426.
+- Newton-CG
+    + R. Byrd, G. Chin,W. Neveitt, and J. Nocedal. 2011. On the Use of Stochastic Hessian Information in Optimization Methods for Machine Learning. SIAM Journal on Optimization 21, 3 (2011), 977–995. https://doi.org/10.1137/10079923X
+- LBFGS
+    + Dong C. Liu and Jorge Nocedal. 1989. On the limited memory BFGS method for large scale optimization. Mathematical Programming 45, 1 (1989), 503–528.
+- SQN (Stochasit Quasi-Newton) method
+    + Richard H. Byrd, S. L. Hansen, Jorge Nocedal, and Yoram Singer. 2016. A Stochastic Quasi-Newton Method for Large-Scale Optimization. SIAM Journal on Optimization 26, 2 (2016), 1008–1031.
+- SVRG-SQN
+    + Philipp Moritz, Robert Nishihara, and Michael I. Jordan. 2016. A Linearly-Convergent Stochastic L-BFGS Algorithm. In AISTATS.
+- SVRG-LBFGS
+    + Ritesh Kolte, Murat Erdogdu, and Ayfer Ozgur. 2015. Accelerating SVRG via second-order information. In NIPS Workshop on Optimization for Machine Learning.
+- STRON-PCG
+    + Vinod Kumar Chauhan, Anuj Sharma, and Kalpana Dahiya. Stochastic Trust Region Inexact Newton Method for Large-scale Machine Learning. arXiv, dec 2018c. URL http://arxiv.org/abs/1812.10426.
+- STRPM-PCG-Prog
+    + Vinod Kumar Chauhan, Anuj Sharma, and Kalpana Dahiya. Stochastic Trust Region Inexact Newton Method for Large-scale Machine Learning. arXiv, dec 2018c. URL http://arxiv.org/abs/1812.10426.
+- STRON-SVRG
+    + Vinod Kumar Chauhan, Anuj Sharma, and Kalpana Dahiya. Stochastic Trust Region Inexact Newton Method for Large-scale Machine Learning. arXiv, dec 2018c. URL http://arxiv.org/abs/1812.10426.
+
 
 This documentation provides information to the users and developers for using LIBS2ML.
 
@@ -32,25 +59,25 @@ Table of Contents
 Installation
 ======================
 LIBS2ML works on MATLAB/Octave so it is platform independent and easy to install.
-Download the latest version of the library from the following URL:
-...
+Download the latest version of the library from the following URL: https://github.com/jmdvinodjmd/LIBS2ML
 
 1. Prerequisite
-    + C++ Compiler compatible with your MATLAB/Octave version. You can verify this using command ``mex -setup C++" on MATLAB.
+    + MATLAB/Octave with compatiable C++ Compiler. 
+You can check if your MATLAB/Octave has compatible complier or not using command ``mex -setup C++" on MATLAB/Octave command prompt. If you see some compliers as output that means your ready to go, otherwise (in MATLAB) you will see a link in the output to find the compatiable c++ compliers, so follow that link and install the required compliers.
 
 2. Compile the source files:
-    + Run the make.m MATLAB script.
+    + Run `run_this_first.m' MATLAB script which will add the folders to the path.
+    + Run the `make.m' MATLAB script which compiles the source code.
 
 Now the library is ready to use. You can look at ``Quick Start Example" section.
 
-
-## Known Issues of MEX files
 
 
 Quick Start Example
 ===================
 Here we provide an example of using LIBS2ML. For this we use MATLAB script ``exp_run.m" which uses ``mushroom.mat" dataset, which is present in ``data" folder, and sets some values to different parameters which can be tuned depending upon the problem and the solver. This compares the selected solvers for their convergence against time and accuracy.
-- Run ``exp_run.m", which is MATLAB driver script for running the experiments.
+- First Run `run_this_first.m' MATLAB script, if not done earlier, which will add the folders to the path.
+- `exp_run.m', which is MATLAB driver script for running the experiments.
  
 
 Extension
@@ -79,9 +106,9 @@ LIBS2ML is designed in a modular fashion and problem, solver, driver script and 
 More Information
 ================
 
-LIBS2ML is released under the Apache 2.0 open source license.
+LIBS2ML is an open source library and released under the Apache 2.0 open source license.
 
-You will find the accompanying manuscript by Tuesday, as it is submitted to arXiv and will be online by Tuesday. Please cite LIBS2ML in your publications if you find it useful:
+Please cite LIBS2ML in your publications if you find it useful:
 
 ```
 @article{libs2ml2019,
@@ -98,6 +125,4 @@ https://jmdvinodjmd.blogspot.com/2018/12/lessons-learnt-from-developing-c-librar
 Contact us
 ======================
 This library is a work in progress so any questions and suggestions are welcomed. Please send your emails to:
-anujs@pu.ac.in and cc to jmdvinodjmd@gmail.com
-
-
+anujs AT pu.ac.in and cc to jmdvinodjmd AT gmail.com
