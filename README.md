@@ -22,7 +22,7 @@ Currently, LIBS2ML contains following problems but we will add more problems in 
 Folders and files
 ---------
 <pre>
-./                      - Top directory.
+./                      - This is top directory.
 ./README.md             - This is readme file.
 ./run_this_first.m      - The scipt adds folders to path so need to run this first.
 ./make.m                - This MATLAB/Octave script is used to compile the source code.
@@ -133,8 +133,8 @@ You can have a look into the lessons learnt from the development of LIBS2ML from
 https://jmdvinodjmd.blogspot.com/2018/12/lessons-learnt-from-developing-c-library.html
 
 ## Contact us
-This library is a work in progress so any questions and suggestions are welcomed. Please send your emails to:
-anujs AT pu.ac.in and cc to jmdvinodjmd AT gmail.com
+This library is a work in progress so any questions and suggestions are welcomed. Please contact:
+[Dr. Anuj Sharma](https://sites.google.com/view/anujsharma/) and [Vinod Kumar Chauhan](https://sites.google.com/site/jmdvinodjmd/), and send email to anujs **AT** pu **dot** ac **dot** in and cc to jmdvinodjmd **AT** gmail **dot** com.
 
 ## Release Notes
 - ...
