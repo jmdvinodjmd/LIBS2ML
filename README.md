@@ -98,9 +98,7 @@ Here we provide an example of using LIBS2ML. For this we use MATLAB script ``exp
 
 The experimental results:
 
-<img src="https://github.com/jmdvinodjmd/JMD/blob/master/news20_acc_time.png" width="900">
-<br /><br />
-
+<img src="https://github.com/jmdvinodjmd/JMD/blob/master/news20_acc_time.png" width="300">
 <img src="https://github.com/jmdvinodjmd/JMD/blob/master/news20_opt_time.png" width="900">
 <br /><br />
  
