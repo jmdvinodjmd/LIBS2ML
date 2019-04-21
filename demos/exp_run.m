@@ -6,7 +6,7 @@
 %% Clearing everyting from workspace
 clc; clear all; close all;
 %% Load dataset
-load('data/news20');
+load('data/mushroom');
 X = [ones(size(X,1),1) X];
 [l_total, p] = size(X);
 X = X';y = y(:)';
