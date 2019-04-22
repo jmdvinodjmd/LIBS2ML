@@ -96,7 +96,7 @@ Here we provide an example of using LIBS2ML. For this we use MATLAB script ``exp
 - First Run `run_this_first.m' MATLAB script, if not done earlier, which will add the folders to the path.
 - `exp_run.m', which is MATLAB driver script for running the experiments.
 
-The experimental results:
+The experimental results for running demo the script with news20 dataset:
 
 <img src="https://github.com/jmdvinodjmd/JMD/blob/master/results.png" width="800">
 <br /><br />
@@ -139,6 +139,7 @@ Please cite LIBS2ML if you find it useful:
 }
 ```
 You can have a look into the lessons learnt from the development of LIBS2ML from following blog:
+
 [Lessons Learnt from Developing a C++ Library](https://jmdvinodjmd.blogspot.com/2018/12/lessons-learnt-from-developing-c-library.html)
 
 
