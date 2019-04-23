@@ -10,7 +10,6 @@ LIBS2ML is a library based on scalable second order learning algorithms for solv
 
 
 ## MANUSCRIPT
-You will find the accompanying manuscript by Tuesday, as it is submitted to arXiv and will be online by Tuesday.
 + Vinod Kumar Chauhan, Anuj Sharma, and Kalpana Dahiya. LIBS2ML: A Library for Scalable Second Order Machine Learning Algorithms. arXiv, April 2019. URL http: http://arxiv.org/abs/1904.09448
 
 
