@@ -6,12 +6,12 @@ LIBS2ML: A Library for Scalable Second Order Machine Learning Algorithms
 
 
 ## About LIBS2ML
-LIBS2ML is a library based on scalable second order learning algorithms for solving large-scale problems, i.e., big data problems in machine learning. LIBS2ML has been developed using MEX files, i.e., C++ with MATLAB/Octave interface to take the advantage of both the worlds, i.e., faster learning using C++ and easy I/O using MATLAB. Most of the available libraries are either in MATLAB/Python/R which are very slow and not suitable for large-scale learning, or are in C/C++ which does not have easy ways to take input and display results. So LIBS2ML is completely unique due to its focus on the scalable second order methods, the hot research topic, and being based on MEX files. Thus it provides researchers a comprehensive environment to evaluate their ideas and it also provides machine learning practitioners an effective tool to deal with the large-scale learning problems. LIBS2ML is an open-source, highly efficient, extensible, scalable, readable, portable and easy to use library. The library can be downloaded from the URL: \url{https://github.com/jmdvinodjmd/LIBS2ML}.
+LIBS2ML is a library based on scalable second order learning algorithms for solving large-scale problems, i.e., big data problems in machine learning. LIBS2ML has been developed using MEX files, i.e., C++ with MATLAB/Octave interface to take the advantage of both the worlds, i.e., faster learning using C++ and easy I/O using MATLAB. Most of the available libraries are either in MATLAB/Python/R which are very slow and not suitable for large-scale learning, or are in C/C++ which does not have easy ways to take input and display results. So LIBS2ML is completely unique due to its focus on the scalable second order methods, the hot research topic, and being based on MEX files. Thus it provides researchers a comprehensive environment to evaluate their ideas and it also provides machine learning practitioners an effective tool to deal with the large-scale learning problems. LIBS2ML is an open-source, highly efficient, extensible, scalable, readable, portable and easy to use library. The library can be downloaded from the URL: https://github.com/jmdvinodjmd/LIBS2ML.
 
 
 ## MANUSCRIPT
 You will find the accompanying manuscript by Tuesday, as it is submitted to arXiv and will be online by Tuesday.
-+ Vinod Kumar Chauhan, Anuj Sharma, and Kalpana Dahiya. LIBS2ML: A Library for Scalable Second Order Machine Learning Algorithms. arXiv, April 2019. URL http:
++ Vinod Kumar Chauhan, Anuj Sharma, and Kalpana Dahiya. LIBS2ML: A Library for Scalable Second Order Machine Learning Algorithms. arXiv, April 2019. URL http: http://arxiv.org/abs/1904.09448
 
 
 ## ARCHITECTURE
