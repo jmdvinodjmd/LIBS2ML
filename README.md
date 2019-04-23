@@ -130,12 +130,15 @@ LIBS2ML is an open source library and released under the Apache 2.0 open source 
 Please cite LIBS2ML if you find it useful:
 
 ```
-@article{libs2ml2019,
-  title={LIBS2ML: A Library for Scalable Second Order Machine Learning Algorithms},
-  author={Vinod Kumar Chauhan, Anuj Sharma and Kalpana Dahiya},
-  journal={arXiv},
-  pages = {1--5},
-  year={2019}
+@article{Chauhan2019LIBS2ML,
+	title = {{LIBS2ML: A Library for Scalable Second Order Machine Learning Algorithms}},
+	journal = {arXiv},
+	arxivId = {1904.09448},
+	author = {Chauhan, Vinod Kumar and Sharma, Anuj and Dahiya, Kalpana},
+	eprint = {1904.09448},
+	month = {april},
+	url = {http://arxiv.org/abs/1904.09448},
+	year = {2019}
 }
 ```
 You can have a look into the lessons learnt from the development of LIBS2ML from following blog:
