@@ -19,3 +19,7 @@ cd ..;
 cd mexfiles/;
 addpath(genpath(pwd));
 cd ..;
+
+cd data/;
+addpath(genpath(pwd));
+cd ..;
