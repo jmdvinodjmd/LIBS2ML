@@ -249,7 +249,7 @@ void mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[]) {
     // for test data
     if(mxIsSparse(prhs[2])) {
         if (x_space!=NULL) {
-            free(x_space);
+            //free(x_space); 
         }
         err = read_problem_sparse(prhs[2], prhs[4], input.x_test, input.y_test, options.l_test);
     } else {
