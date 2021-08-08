@@ -1,15 +1,14 @@
-## Work in progress...
-
-
 LIBS2ML: A Library for Scalable Second Order Machine Learning Algorithms
 ===========================================================================
 
 
 ## About LIBS2ML
-LIBS2ML is a library based on scalable second order learning algorithms for solving large-scale problems, i.e., big data problems in machine learning. LIBS2ML has been developed using MEX files, i.e., C++ with MATLAB/Octave interface to take the advantage of both the worlds, i.e., faster learning using C++ and easy I/O using MATLAB. Most of the available libraries are either in MATLAB/Python/R which are very slow and not suitable for large-scale learning, or are in C/C++ which does not have easy ways to take input and display results. So LIBS2ML is completely unique due to its focus on the scalable second order methods, the hot research topic, and being based on MEX files. Thus it provides researchers a comprehensive environment to evaluate their ideas and it also provides machine learning practitioners an effective tool to deal with the large-scale learning problems. LIBS2ML is an open-source, highly efficient, extensible, scalable, readable, portable and easy to use library. The library can be downloaded from the URL: https://github.com/jmdvinodjmd/LIBS2ML.
+LIBS2ML is a library based on scalable second order learning algorithms for solving large-scale problems, i.e., big data problems in machine learning. LIBS2ML has been developed using MEX files, i.e., C++ with MATLAB/Octave interface to take the advantage of both the worlds, i.e., faster learning using C++ and easy I/O using MATLAB/Octave. Most of the available libraries are either in MATLAB/Python/R which are very slow and not suitable for large-scale learning, or are in C/C++ which does not have easy ways to take input and display results. So, LIBS2ML is a completely unique due to its focus on the scalable second order methods -- the hot research topic -- and being based on MEX files. Thus, it provides researchers a comprehensive environment to evaluate their ideas and it also provides machine learning practitioners an effective tool to deal with the large-scale learning problems. LIBS2ML is an open-source, highly efficient, extensible, scalable, readable, portable and easy to use library. The library can be downloaded from the URL: https://github.com/jmdvinodjmd/LIBS2ML.
 
+NOTE: This library is also for empirical study in the following paper:
+Chauhan, V.K., Sharma, A. & Dahiya, K. Stochastic trust region inexact Newton method for large-scale machine learning. Int. J. Mach. Learn. & Cyber. 11, 1541–1555 (2020). https://doi.org/10.1007/s13042-019-01055-9
 
-## MANUSCRIPT
+## MANUSCRIPT/Preprint
 + Vinod Kumar Chauhan, Anuj Sharma, and Kalpana Dahiya. LIBS2ML: A Library for Scalable Second Order Machine Learning Algorithms. arXiv, April 2019. URL http: http://arxiv.org/abs/1904.09448
 
 
@@ -44,7 +43,7 @@ Currently, LIBS2ML Contains following learning algorithms but we will add more m
 - TRON (Trust RegiOn Newton) method
     + Chih-Yang Hsia, Wei-Lin Chiang, and Chih-Jen Lin. 2018. Preconditioned Conjugate Gradient Methods in Truncated Newton Frameworks for Large-scale Linear Classification. In Proceedings of the Tenth Asian Conference on Machine Learning (Proceedings of Machine Learning Research). PMLR.
 - STRON (Stochastic Trust RegiOn Newton) method
-    + Vinod Kumar Chauhan, Anuj Sharma, and Kalpana Dahiya. Stochastic Trust Region Inexact Newton Method for Large-scale Machine Learning. arXiv, dec 2018c. URL http://arxiv.org/abs/1812.10426.
+    + Chauhan, V.K., Sharma, A. & Dahiya, K. Stochastic trust region inexact Newton method for large-scale machine learning. Int. J. Mach. Learn. & Cyber. 11, 1541–1555 (2020). https://doi.org/10.1007/s13042-019-01055-9
 - Newton-CG
     + R. Byrd, G. Chin,W. Neveitt, and J. Nocedal. 2011. On the Use of Stochastic Hessian Information in Optimization Methods for Machine Learning. SIAM Journal on Optimization 21, 3 (2011), 977–995. https://doi.org/10.1137/10079923X
 - LBFGS
@@ -56,11 +55,11 @@ Currently, LIBS2ML Contains following learning algorithms but we will add more m
 - SVRG-LBFGS
     + Ritesh Kolte, Murat Erdogdu, and Ayfer Ozgur. 2015. Accelerating SVRG via second-order information. In NIPS Workshop on Optimization for Machine Learning.
 - STRON-PCG
-    + Vinod Kumar Chauhan, Anuj Sharma, and Kalpana Dahiya. Stochastic Trust Region Inexact Newton Method for Large-scale Machine Learning. arXiv, dec 2018c. URL http://arxiv.org/abs/1812.10426.
+    + Chauhan, V.K., Sharma, A. & Dahiya, K. Stochastic trust region inexact Newton method for large-scale machine learning. Int. J. Mach. Learn. & Cyber. 11, 1541–1555 (2020). https://doi.org/10.1007/s13042-019-01055-9
 - STRPM-PCG-Prog
-    + Vinod Kumar Chauhan, Anuj Sharma, and Kalpana Dahiya. Stochastic Trust Region Inexact Newton Method for Large-scale Machine Learning. arXiv, dec 2018c. URL http://arxiv.org/abs/1812.10426.
+    + Chauhan, V.K., Sharma, A. & Dahiya, K. Stochastic trust region inexact Newton method for large-scale machine learning. Int. J. Mach. Learn. & Cyber. 11, 1541–1555 (2020). https://doi.org/10.1007/s13042-019-01055-9
 - STRON-SVRG
-    + Vinod Kumar Chauhan, Anuj Sharma, and Kalpana Dahiya. Stochastic Trust Region Inexact Newton Method for Large-scale Machine Learning. arXiv, dec 2018c. URL http://arxiv.org/abs/1812.10426.
+    + Chauhan, V.K., Sharma, A. & Dahiya, K. Stochastic trust region inexact Newton method for large-scale machine learning. Int. J. Mach. Learn. & Cyber. 11, 1541–1555 (2020). https://doi.org/10.1007/s13042-019-01055-9
 
 
 This documentation provides information to the users and developers for using LIBS2ML.
