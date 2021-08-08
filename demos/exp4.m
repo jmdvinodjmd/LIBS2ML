@@ -1,8 +1,9 @@
 % Experimental Demostration
-% This file is used to reproduce the results reported in STRON (Chauhan et al 2018).
+% This file is used to reproduce the results reported in STRON (Chauhan et al 2020) and presents
+% comparative study of methods using SVM.
 % This file is part of LIBS2ML.
 % Created by V. K. Chauhan on Sept. 15, 2018
-% Modified by V. K. Chauhan on Apr. 18, 2019
+% Last Modified by V. K. Chauhan on August 08, 2021
 %% Clearing everyting from workspace
 clc; clear all; close all;
 %% Load data
