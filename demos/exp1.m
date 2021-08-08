@@ -103,3 +103,4 @@ fig2 = plot_graph(opt_obj, 'time','accuracy', {'SVRG\_LBFGS', 'STRON', 'SVRG\_SQ
 % % % fprintf('Time     : %.4f \t\t %.4f \t\t %.4f\n', info{1}.time(end), info{2}.time(end), info{3}.time(end)); 
 % % % fprintf('Cost     : %.12f \t %.12f \t %.12f\n', info{1}.cost(end), info{2}.cost(end), info{3}.cost(end)); 
 % diary(logs);
+ 
