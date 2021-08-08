@@ -90,11 +90,11 @@ Now the library is ready to use. You can look at ``Quick Start Example" section.
 
 
 ## Quick Start Example
-Here we provide an example of using LIBS2ML. For this we use MATLAB script ``exp_run.m" which uses ``mushroom.mat" dataset, which is present in ``data" folder, and sets some values to different parameters which can be tuned depending upon the problem and the solver. This compares the selected solvers for their convergence against time and accuracy.
+Here we provide an example of using LIBS2ML. For this we use MATLAB script ``exp_run.m" which uses ``mushroom.mat" dataset, which is present in ``data" folder, and sets some values to different parameters which can be tuned depending upon the problem and the solver. This compares the selected solvers for their convergence against time and accuracy. All required datasets can be downloaded from [LIBSVM](https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/) website and need to be in matlab format (can be converted using LIBSVM library).
 - First Run `run_this_first.m' MATLAB script, if not done earlier, which will add the folders to the path.
-- `exp_run.m', which is MATLAB driver script for running the experiments.
+- `exp_run.m', which is MATLAB driver script for running the experiments (or you can run other readymade driver script or modify the existing ones).
 
-The experimental results for running demo the script with news20 dataset:
+The experimental results for running demo the script with mushroom dataset:
 
 <img src="https://github.com/jmdvinodjmd/JMD/blob/master/results.png" width="800">
 <br /><br />
