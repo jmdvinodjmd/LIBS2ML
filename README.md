@@ -9,7 +9,7 @@ NOTE: This library is also for empirical study in the following paper:
 Chauhan, V.K., Sharma, A. & Dahiya, K. Stochastic trust region inexact Newton method for large-scale machine learning. Int. J. Mach. Learn. & Cyber. 11, 1541–1555 (2020). https://doi.org/10.1007/s13042-019-01055-9
 
 ## MANUSCRIPT/Preprint
-+ Vinod Kumar Chauhan, Anuj Sharma, and Kalpana Dahiya. LIBS2ML: A Library for Scalable Second Order Machine Learning Algorithms. arXiv, April 2019. URL http: http://arxiv.org/abs/1904.09448
++ Chauhan, V. K., Sharma, A., & Dahiya, K. (2021). LIBS2ML: A library for scalable second order machine learning algorithms. Software Impacts, 100123, DOI: 10.1016/j.simpa.2021.100123, [paper](https://doi.org/10.1016/j.simpa.2021.100123), [preprint](http://arxiv.org/abs/1904.09448).
 
 
 ## ARCHITECTURE
@@ -128,15 +128,15 @@ LIBS2ML is an open source library and released under the Apache 2.0 open source 
 Please cite LIBS2ML if you find it useful:
 
 ```
-@article{Chauhan2019LIBS2ML,
-	title = {{LIBS2ML: A Library for Scalable Second Order Machine Learning Algorithms}},
-	journal = {arXiv},
-	arxivId = {1904.09448},
-	author = {Chauhan, Vinod Kumar and Sharma, Anuj and Dahiya, Kalpana},
-	eprint = {1904.09448},
-	month = {april},
-	url = {http://arxiv.org/abs/1904.09448},
-	year = {2019}
+@article{Chauhan2021,
+title = {LIBS2ML: A library for scalable second order machine learning algorithms},
+journal = {Software Impacts},
+volume = {10},
+pages = {100123},
+year = {2021},
+issn = {2665-9638},
+doi = {10.1016/j.simpa.2021.100123},
+author = {Vinod Kumar Chauhan and Anuj Sharma and Kalpana Dahiya}
 }
 ```
 You can have a look into the lessons learnt from the development of LIBS2ML from following blog:
